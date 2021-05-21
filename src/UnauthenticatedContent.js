@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { SingleCard } from './layouts';
 import { LoginForm, ResetPasswordForm, ChangePasswordForm, CreateAccountForm } from './components';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function () {
   return (
     <Switch>

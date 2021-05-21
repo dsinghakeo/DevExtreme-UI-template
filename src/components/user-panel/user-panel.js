@@ -5,6 +5,7 @@ import List from 'devextreme-react/list';
 import { useAuth } from '../../contexts/auth';
 import './user-panel.scss';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function ({ menuMode }) {
   const { user, signOut } = useAuth();
   const history = useHistory();

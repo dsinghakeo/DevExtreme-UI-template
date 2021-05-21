@@ -8,6 +8,7 @@ import DataGrid, {
   Lookup
 } from 'devextreme-react/data-grid';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => (
   <React.Fragment>
     <h2 className={'content-block'}>Tasks</h2>

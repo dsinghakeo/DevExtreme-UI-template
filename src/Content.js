@@ -5,7 +5,8 @@ import routes from './app-routes';
 import { SideNavOuterToolbar as SideNavBarLayout } from './layouts';
 import { Footer } from './components';
 
-export default function() {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default function () {
   return (
     <SideNavBarLayout title={appInfo.title}>
       <Switch>
